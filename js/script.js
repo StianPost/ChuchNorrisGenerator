@@ -7,6 +7,7 @@ jokeBtn.onclick = function () {
       response = await fetch(url);
       result = await response.json();
       const jokeRND = result.value.joke;
+
       document.querySelector('.jokes').style.display = 'block';
       document.querySelector('.jokes').innerHTML = `
       <p>${jokeRND}</p>
