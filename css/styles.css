@@ -59,4 +59,5 @@ button:hover {
   background-color: lightgreen;
   font-size: 1.25rem;
   font-weight: 500;
+  display: none;
 }
